@@ -12,11 +12,11 @@ In this challenge, I used `android-apktool` to extract the Android Package (APK)
 
 Let's check out the description first:
 ```
-```
 Description: &gt; A simple Android CrackMe written entirely in Java. The UI is created programmatically without using XML layouts.
 Goal: &gt; Find the correct 8-character license key to trigger the success message and reveal the flag.
 Input: &gt; String/Text in the input field.
 Solution: &gt; Decompile the APK using tools like JADX or Bytecode Viewer. Analyze the checkLicense() method to understand the string constraints (length, prefix, and suffix).
+```
 
 This gives us enough information to start off with.
 
